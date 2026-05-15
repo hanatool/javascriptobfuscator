@@ -1,0 +1,75 @@
+body {
+	font-family: 'Roboto', 'Raleway', Arial, Helvetica, sans-serif;
+	background: #f4f7fb;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.navbar {
+	background: linear-gradient(90deg, #0d6efd, #4f8cff);
+}
+
+.navbar-brand {
+	font-weight: 600;
+	letter-spacing: 0.5px;
+}
+
+.main-card {
+	border: none;
+	border-radius: 20px;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+	overflow: hidden;
+}
+
+.card-header-custom {
+	background: #ffffff;
+	border-bottom: 1px solid #eaeaea;
+	padding: 20px;
+}
+
+.card-header-custom h2 {
+	font-size: 1.5rem;
+	margin: 0;
+	font-weight: 600;
+}
+
+textarea {
+	resize: none;
+	border-radius: 15px !important;
+	padding: 15px !important;
+	font-size: 14px;
+	background: #fafafa !important;
+}
+
+textarea:focus {
+	box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, .15) !important;
+}
+
+.section-title {
+	font-weight: 600;
+	margin-bottom: 10px;
+	color: #333;
+}
+
+.btn-custom {
+	border-radius: 12px;
+	padding: 12px 25px;
+	font-weight: 500;
+}
+
+footer {
+	margin-top: auto;
+	background: #ffffff;
+	border-top: 1px solid #eaeaea;
+	padding: 20px 0;
+	text-align: center;
+	color: #666;
+	font-size: 14px;
+}
+
+.hero-text {
+	color: #6c757d;
+	margin-top: 5px;
+	font-size: 15px;
+}
